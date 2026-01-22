@@ -1,4 +1,4 @@
-const ADMIN_PASSWORD = "villagecanohes";
+const ADMIN_PASSWORD = "admin";
 let articlesData = [];
 
 var quill = new Quill('#editor', {
@@ -65,4 +65,5 @@ function downloadJSON() {
     a.click();
 
 }
+
 
