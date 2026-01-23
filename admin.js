@@ -63,8 +63,4 @@ function downloadJSON() {
     a.href = URL.createObjectURL(blob);
     a.download = "articles.json";
     a.click();
-
 }
-
-
-
